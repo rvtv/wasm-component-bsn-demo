@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = ["rust/bsn-nineproof-validator"]
+
+[workspace.package]
+version = "0.0.1"
+authors = ["rob.van.t.veld@ing.com"]
+description = "demo implementation of bsn validation using wasm components"
+edition = "2024"
+
+[workspace.dependencies]
+wit-bindgen-rt = { version = "0.41.0", features = ["bitflags"] }

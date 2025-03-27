@@ -1,0 +1,22 @@
+package summit25:validator@0.0.1;
+
+interface string-validation {
+    validate: func(value: string) -> bool;
+}
+
+interface string-length-validation {
+    validate: func(value: string, length: s32) -> bool;
+}
+
+world string-length-validator {
+    export string-length-validation;
+}
+
+// also possible with same interface:
+// world length-less-then-validator {
+//     export string-length-validator;
+// }
+
+world nineproof-validator {
+    export string-validation;
+}

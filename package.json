@@ -1,0 +1,20 @@
+{
+  "name": "bsn-demo",
+  "version": "0.0.1",
+  "description": "demo implementation of bsn validation using wasm components",
+  "main": "./js/index.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {},
+  "keywords": [
+    "demo",
+    "wasm"
+  ],
+  "author": "rob.van.t.veld@ing.com",
+  "license": "ISC",
+  "dependencies": {
+    "@bytecodealliance/preview2-shim": "^0.17.2"
+  }
+}
