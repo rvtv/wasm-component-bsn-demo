@@ -1,0 +1,22 @@
+[package]
+name = "bsn-nineproof-validator-ext"
+version.workspace = true
+authors.workspace = true
+description.workspace = true
+edition.workspace = true
+
+[dependencies]
+wit-bindgen-rt = { workspace = true }
+
+[lib]
+crate-type = ["cdylib"]
+
+[package.metadata.component]
+package = "summit25:validator"
+
+[package.metadata.component.dependencies]
+
+[package.metadata.component.target]
+path = "../../wit"
+world = "nineproof-validator-ext"
+

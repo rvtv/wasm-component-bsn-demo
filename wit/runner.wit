@@ -1,0 +1,9 @@
+interface string-validation-runner {
+    validate: func(value: string) -> result<string, string>;
+}
+
+world bsn-validator {
+    import string-length-validation;
+    import string-validation;
+    export string-validation-runner;
+}

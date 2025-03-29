@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["rust/bsn-nineproof-validator"]
+members = ["rust/bsn-nineproof-validator", "rust/bsn-nineproof-validator-ext"]
 
 [workspace.package]
 version = "0.0.1"

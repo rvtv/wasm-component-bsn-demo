@@ -1,0 +1,1 @@
+This directory contains transpiled wasm components.

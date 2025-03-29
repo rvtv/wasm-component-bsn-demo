@@ -1,5 +1,7 @@
 #! /bin/bash
 
+# action: create a JavaScript module that calls the bsn_nineproof_validator.wasm component
+
 # install:
 # npm install -g @bytecodealliance/jco
 

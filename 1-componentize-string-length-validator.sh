@@ -4,11 +4,19 @@
 
 # install:
 # npm install -g @bytecodealliance/componentize-js
+
 mkdir -p target/wasm
-echo "command: componentize-js ./js/packages/string-length-validator/src/stringLengthValidator.js --wit ./wit/validator.wit --world-name string-length-validator --out ./target/wasm/string_length_validator.wasm"
+
+echo "command: componentize-js \
+./js/packages/string-length-validator/src/stringLengthValidator.js \
+--wit ./wit \
+--world-name string-length-validator \
+--out ./target/wasm/string_length_validator.wasm"
+
 componentize-js \
   ./js/packages/string-length-validator/src/stringLengthValidator.js \
-  --wit ./wit/validator.wit --world-name string-length-validator \
+  --wit ./wit \
+  --world-name string-length-validator \
   --out ./target/wasm/string_length_validator.wasm
 
 # alternative

@@ -13,9 +13,9 @@ world string-length-validator {
 }
 
 // also possible with same interface:
-// world length-less-then-validator {
-//     export string-length-validator;
-// }
+world length-less-then-validator {
+    export string-length-validation;
+}
 
 world nineproof-validator {
     export string-validation;
