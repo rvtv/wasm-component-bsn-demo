@@ -1,6 +1,6 @@
 #! /bin/bash
 
-# action: componentize a JavaScript module that checks for sting length
+# action: componentize a JavaScript module that checks for string length
 
 # install:
 # npm install -g @bytecodealliance/componentize-js
