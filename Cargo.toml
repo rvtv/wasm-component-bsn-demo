@@ -4,7 +4,7 @@ members = ["rust/bsn-nineproof-validator", "rust/bsn-nineproof-validator-ext"]
 
 [workspace.package]
 version = "1.0.0"
-authors = ["rob.van.t.veld@ing.com"]
+authors = ["rvtv"]
 description = "demo implementation of bsn validation using wasm components"
 edition = "2024"
 
